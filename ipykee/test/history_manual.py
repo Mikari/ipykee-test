@@ -29,3 +29,7 @@ session = ipykee.Session(notebook="test", project_name="Test", docker_image="ana
 # <codecell>
 
 print "123"
+
+# <codecell>
+
+print "654"

@@ -44,6 +44,15 @@
     "ipykee.create_project_if_not_exist(\"Test\", repository=\"git@github.com:Mikari/ipykee-test.git\", internal_path=\"ipykee\")\n",
     "session = ipykee.Session(notebook=\"test\", project_name=\"Test\", docker_image=\"anaderi/rep-develop:latest\")"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print \"123\""
+   ]
   }
  ],
  "metadata": {},
