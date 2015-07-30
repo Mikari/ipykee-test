@@ -1,5 +1,6 @@
 FROM anaderi/rep-develop:latest
 
+RUN mkdir -p /notebooks
 RUN cd /notebooks
 RUN git clone https://github.com/Mikari/ipykee-test.git Test
 ENV $PROJECT_PATH /notebooks/Test/
